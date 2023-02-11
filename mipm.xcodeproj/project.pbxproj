@@ -16,6 +16,8 @@
 		493C67C12997621B00F3B6F2 /* mipmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493C67C02997621B00F3B6F2 /* mipmTests.swift */; };
 		493C67CB2997621B00F3B6F2 /* mipmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493C67CA2997621B00F3B6F2 /* mipmUITests.swift */; };
 		493C67CD2997621B00F3B6F2 /* mipmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493C67CC2997621B00F3B6F2 /* mipmUITestsLaunchTests.swift */; };
+		493C67DA299765D400F3B6F2 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493C67D9299765D400F3B6F2 /* CircleImage.swift */; };
+		493C67DC2997664D00F3B6F2 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493C67DB2997664D00F3B6F2 /* Map.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		493C67C62997621B00F3B6F2 /* mipmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mipmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		493C67CA2997621B00F3B6F2 /* mipmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mipmUITests.swift; sourceTree = "<group>"; };
 		493C67CC2997621B00F3B6F2 /* mipmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mipmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		493C67D9299765D400F3B6F2 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		493C67DB2997664D00F3B6F2 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +105,11 @@
 				493C67AA2997621A00F3B6F2 /* mipmApp.swift */,
 				493C67AC2997621A00F3B6F2 /* ContentView.swift */,
 				493C67AE2997621B00F3B6F2 /* Assets.xcassets */,
+				493C67D9299765D400F3B6F2 /* CircleImage.swift */,
 				493C67B32997621B00F3B6F2 /* Persistence.swift */,
 				493C67B52997621B00F3B6F2 /* mipm.xcdatamodeld */,
 				493C67B02997621B00F3B6F2 /* Preview Content */,
+				493C67DB2997664D00F3B6F2 /* Map.swift */,
 			);
 			path = mipm;
 			sourceTree = "<group>";
@@ -267,6 +273,8 @@
 				493C67B42997621B00F3B6F2 /* Persistence.swift in Sources */,
 				493C67AD2997621A00F3B6F2 /* ContentView.swift in Sources */,
 				493C67AB2997621A00F3B6F2 /* mipmApp.swift in Sources */,
+				493C67DC2997664D00F3B6F2 /* Map.swift in Sources */,
+				493C67DA299765D400F3B6F2 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
